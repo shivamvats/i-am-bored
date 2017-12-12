@@ -3,7 +3,7 @@ Set up a list of goals divided into small bite-sized portions that you want to a
 
 ## Setup
 * Run
-``
+```
 ln -s /path/to/i-am-bored.py /path/to/bin
 chmod +x i-am-bored.py
 ```
