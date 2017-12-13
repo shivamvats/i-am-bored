@@ -66,18 +66,19 @@ def loadRoutine1():
 def loadRoutine2():
     """Read Terence Tao's blog."""
     subprocess.call(["notify-send", "i-am-bored", "Enjoy Terence Tao's blog today."])
-    subprocess.call(["xdg-open", "https://terrytao.wordpress.com/"])
+    subprocess.call("xdg-open https://terrytao.wordpress.com/", shell=True)
 
 def loadRoutine3():
     """Read about no free lunch theorem."""
     subprocess.call(["notify-send", "i-am-bored", "Read about the no free lunch theorem today."])
-    subprocess.call(["xdg-open", "http://no-free-lunch.org/"])
+    subprocess.call("xdg-open http://no-free-lunch.org/", shell=True)
 
 def loadRoutine4():
     """Read essays on rationality by Eliezer Yudkowsky, commonly called the sequences."""
 
     subprocess.call(["notify-send", "i-am-bored", "Read an essay from the sequences"])
-    subprocess.call(["xdg-open", "https://www.readthesequences.com/"])
+    subprocess.call("xdg-open https://www.readthesequences.com/",
+            shell=True)
 
 routineDict = {
         1 : loadRoutine1,
