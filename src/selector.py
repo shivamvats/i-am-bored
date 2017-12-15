@@ -1,7 +1,9 @@
 from executor import *
+from datetime import datetime
 import random
 
 def routineSelector():
+    random.seed(a=datetime.now())
     routineIndex = random.randint(1, len(routineDict))
     return routineDict[routineIndex]
 

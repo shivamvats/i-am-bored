@@ -84,6 +84,6 @@ routineDict = {
         1 : loadRoutine1,
         2 : loadRoutine2,
         3 : loadRoutine3,
-        4 : loadRoutine3
+        4 : loadRoutine4
         }
 
