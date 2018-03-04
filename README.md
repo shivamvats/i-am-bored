@@ -19,3 +19,6 @@ chosen and opened for you.
 * Some way to track and update progress.
 * Progress tracking can be integrated with routinizer so that both are updated
   with progress on tasks.
+* Improve command-line use- add options to view available tasks and choose one
+  of them.
+* Review the code- make it more extensible and easy to update.

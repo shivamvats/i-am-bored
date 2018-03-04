@@ -80,6 +80,12 @@ def loadRoutine4():
     subprocess.call("xdg-open https://www.readthesequences.com/",
             shell=True)
 
+def loadRoutine5():
+    """Read Nikola Tesla's autobiography."""
+    subprocess.call(["notify-send", "i-am-bored", "Read an essay from the sequences"])
+    subprocess.call("xdg-open http://www.teslasautobiography.com/my_early_life.html",
+            shell=True)
+
 routineDict = {
         1 : loadRoutine1,
         2 : loadRoutine2,
