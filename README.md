@@ -1,5 +1,5 @@
 # i-am-bored
-*Keep it simple.*
+Mantra: *Keep it simple.*
 
 Set up a list of goals divided into small bite-sized portions that you want to achieve. Whenever you are bored `i-am-bored` will give you one of those bits to do.
 
