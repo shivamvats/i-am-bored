@@ -10,6 +10,12 @@ ln -s /path/to/i-am-bored.py /path/to/bin
 chmod +x i-am-bored.py
 ```
 
+## Usage
+
+`i-am-bored` - Runs one of the available routines randomly.
+`i-am-bored list` - Print the list of available routines.
+`i-am-bored run 1` - Run a specific routine.
+
 ## Current Status
 *  `i-am-bored` command can be typed and used from anywhere.
 * Currenly a few routines including coding questions and interesting blogs are
