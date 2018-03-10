@@ -75,9 +75,8 @@ def loadRoutine3():
 
 def loadRoutine4():
     """Read essays on rationality by Eliezer Yudkowsky, commonly called the sequences."""
-
     subprocess.call(["notify-send", "i-am-bored", "Read an essay from the sequences"])
-    subprocess.call("xdg-open https://www.readthesequences.com/",
+    subprocess.call("xdg-open /home/aries/Dropbox/readings/philosophy/Rationality:\ From\ AI\ to\ Zombies.pdf",
             shell=True)
 
 def loadRoutine5():
@@ -91,5 +90,12 @@ routineDict = {
         2 : loadRoutine2,
         3 : loadRoutine3,
         4 : loadRoutine4
+        }
+
+routineDescriptions = {
+        1 : "Haskell",
+        2 : "Terence Tao",
+        3 : "No free lunch",
+        4 : "Sequences",
         }
 
