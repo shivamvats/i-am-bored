@@ -57,11 +57,12 @@ def executeRoutine():
     loadCodingRoutine()
 
 def loadRoutine1():
-    """Solve a haskell problem using exercism."""
+    """Solve a 99 Haskell problems problem."""
     subprocess.call(["notify-send", "i-am-bored", "Solve a haskell problem today"])
     os.system("gnome-terminal -e 'bash -c \"cd "
-                "~/Documents/Coding/exercism/haskell;echo Switch to "
-                "python3.6 env; exec bash\"'")
+                "~/Dropbox/documents/Coding/haskell/99problems;
+                "xdg-open ~/Dropbox/documents/Coding/haskell/Learn-You-a-Haskell"
+                "-for-Great-Good.pdf; exec bash\"'")
 
 def loadRoutine2():
     """Read Terence Tao's blog."""
