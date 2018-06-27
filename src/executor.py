@@ -62,7 +62,9 @@ def loadRoutine1():
     os.system("gnome-terminal -e 'bash -c \"cd "
                 "~/Dropbox/documents/Coding/haskell/99problems;"
                 "xdg-open ~/Dropbox/documents/Coding/haskell/Learn-You-a-Haskell"
-                "-for-Great-Good.pdf; ghci; exec bash\"'")
+                "-for-Great-Good.pdf; xdg-open "
+                "https://wiki.haskell.org/99_questions/1_to_10;"
+                "ghci; exec bash\"'")
 
 def loadRoutine2():
     """Read Terence Tao's blog."""
