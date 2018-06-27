@@ -60,9 +60,9 @@ def loadRoutine1():
     """Solve a 99 Haskell problems problem."""
     subprocess.call(["notify-send", "i-am-bored", "Solve a haskell problem today"])
     os.system("gnome-terminal -e 'bash -c \"cd "
-                "~/Dropbox/documents/Coding/haskell/99problems;
+                "~/Dropbox/documents/Coding/haskell/99problems;"
                 "xdg-open ~/Dropbox/documents/Coding/haskell/Learn-You-a-Haskell"
-                "-for-Great-Good.pdf; exec bash\"'")
+                "-for-Great-Good.pdf; ghci; exec bash\"'")
 
 def loadRoutine2():
     """Read Terence Tao's blog."""
